@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.alert{
+    background: #ae2a2a;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffa3a3;
+  font-size: 0.9rem;
+}

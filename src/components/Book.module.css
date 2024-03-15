@@ -1,0 +1,33 @@
+.bookContainer{
+    display: flex;
+    background: #303030;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.bookContainer img{
+    width:50px;
+    margin-right: 15px;
+}
+.info{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info span{
+    color:#959595;
+    font-size: 0.85rem;
+    margin-right: 20px;
+}
+.like{
+    font-size: 20px;
+  cursor: pointer;
+  height: fit-content;
+}
+.like:hover{
+    transform: scale(1.3);
+}
+.red{
+    color:red;
+}
